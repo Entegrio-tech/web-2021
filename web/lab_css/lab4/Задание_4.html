@@ -1,0 +1,43 @@
+<html>
+<html><head><title>Пример 18</title>
+<style type="text/css">
+<!--
+.overflow {
+position: absolute; top:190;left: 50;
+width:80;
+height:80;
+border:2px solid black;
+overflow:hidden;
+}
+.clip {
+position: relative; top:100;
+left: 230;
+width:150;
+height:150;
+color:yellow;
+background-color:black;
+clip:rect(25px 125px 125px 25px);}
+.clip1{
+position: relative; top:100;
+left: 30;
+width:150;
+height:150;
+color:yellow;
+background-color:black;
+}
+
+-->
+</style>
+</head>
+
+<body>
+<strong>Пример18</strong><br>
+<img  src="flower.jpg" width=150 height=150 alt=”flower” border=1>
+<img class="overflow" src="flower.jpg" width=150 height=150 alt=”flower”>
+
+<strong>Пример19</strong>
+<div class="clip1">Текста абзаца будет обрезан при помощи отсекания, примененного к данной квадратной области размером 150 на 150 пикселей.</div>
+<div class="clip">Текста абзаца будет обрезан при помощи отсекания, примененного к данной квадратной области размером 150 на 150 пикселей.</div>
+
+</body> 
+</html>

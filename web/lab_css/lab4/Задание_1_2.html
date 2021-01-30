@@ -1,0 +1,34 @@
+<html><head><title>Пример 17_2</title>
+<style type="text/css">
+.revers {
+font-weight:bold;
+color:white;
+text-align: center;}
+.bluetext {
+font-weight:bold;
+color:darkblue;
+text-align: justify;
+padding:0.5em;
+margin:0}
+</style>
+</head>
+
+<body>
+<strong>Пример 17_2</strong>
+<!-вертикальный слой-->
+<div style="position: absolute; top:0;
+left: 80%;width:200;
+height:300;background:deeppink">
+
+<img src="ball.jpg" height="70" width="150" style="position:relative; top:20;
+left:25;" >
+<p class="revers">ЗАО Воздушный шар</p>
+</div>
+<!-горизонтальный слой-->
+<div style="position: absolute; top:155;
+left:25;width:400;
+height:90;background :mistyrose">
+<p class="bluetext">Слой цвета mistyrose с абзацем   лежит поверх правой колонки (слоя цвета deeppink) с логотипом. Изображение логотипа позиционировано относительно (relative) его нормального положения в потоке элементов страницы.</p>
+</div>
+</body> 
+</html>

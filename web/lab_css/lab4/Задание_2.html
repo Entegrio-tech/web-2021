@@ -1,0 +1,28 @@
+<html><head><title>Пример 17_3</title>
+<style type="text/css">
+<!--
+.div_layer  {
+background-color:#c0c0c0;
+position:absolute;
+left:150;
+ width:150; height:100;
+visibility:visible;}
+.div_text {
+color:blue;
+position:absolute;left:50;
+width:350; height:100;
+font-size:24pt;}
+-->
+</style>
+</head>
+
+<body>
+<strong>Пример17_3</strong>
+<div class="div_layer" style="top:50;z-index:1;">
+</div>
+<div class="div_text" style="top:50;"> z-индекс слоя больше, чем текста. Слой расположен "ближе" к пользователю.</div>
+
+<div class="div_layer" style="top:200;z-index:-1;">
+</div>
+<div class="div_text" style="top:200;"> z-индекс текста больше,чем слоя. Текст расположен  "ближе" к пользователю.</div>
+</body></html> 
